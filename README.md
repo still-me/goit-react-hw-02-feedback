@@ -55,7 +55,7 @@
          "start": "react-scripts start",
          "build": "react-scripts build",
 
-6. Для отправки на Githab выполнить команду
+6. Для отправки на Github выполнить команду
  
           npm run deploy
 
