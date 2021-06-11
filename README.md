@@ -4,11 +4,10 @@ npx create-react-app .
 
 ✅ Настройка pre-commit хуков
 
-1 - Установка зависимостей
-Установить в проект следующие пакеты.
+1. Установка зависимостей
+   Установить в проект следующие пакеты.
 
-npm install --save-dev prettier eslint
-2 - Инициализация lint-staged и husky
+npm install --save-dev prettier eslint 2. Инициализация lint-staged и husky
 Выполнить в терминале следующую команду. Она установит и настроит husky и lint-staged в зависимости от инструментов качества кода из зависимостей проекта в package.json.
 
 npx mrm lint-staged
@@ -16,8 +15,8 @@ npx mrm lint-staged
 
 )
 
-4 - Настройки VSCode
-Для комфортной работы, после установки плагинов, нужно добавить несколько настроек редактора для автосохранения и форматирования файлов.
+3. Настройки VSCode
+   Для комфортной работы, после установки плагинов, нужно добавить несколько настроек редактора для автосохранения и форматирования файлов.
 
 {
 "files.autoSave": "onFocusChange",
@@ -58,4 +57,4 @@ npx mrm lint-staged
 1. Создать файл .env
 2. путь SASS_PATH=node_modules:src
 
-- При ошибке "cannot find module 'sass'", используй - npm add node-sass
+❗️ При ошибке "cannot find module 'sass'", используй - npm add node-sass
